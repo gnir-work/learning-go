@@ -1,3 +1,6 @@
 go 1.25.5
 
-use ./exercises/step1/ex01
+use (
+	./exercises/step1/ex01
+	./exercises/step1/ex02
+)
