@@ -1,0 +1,9 @@
+[private]
+default:
+    @just --list
+
+format:
+    gofmt -w .
+
+test:
+    go test -v ./...
