@@ -1,0 +1,12 @@
+[private]
+default:
+    @just --list
+
+install:
+    go mod tidy
+
+format:
+    gofmt -w .
+
+test:
+    go test ./... -json | go run github.com/mfridman/tparse -all -follow

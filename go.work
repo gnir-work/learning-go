@@ -4,4 +4,5 @@ use (
 	./exercises/step1/ex01
 	./exercises/step1/ex02
 	./exercises/step1/ex03
+	./exercises/step1/ex04
 )
